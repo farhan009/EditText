@@ -9,7 +9,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {       //Add OnClickListener
 
     private EditText number1EditText1, number2EditText2;
     private Button add_Button, sub_Button;
@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
 
         try {
+            //To get Data in EditText
             String number1 = number1EditText1.getText().toString();
             String number2 = number2EditText2.getText().toString();
 
